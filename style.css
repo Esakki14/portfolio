@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{
+    --color1 :#00BFFF;
+    --color2 :#008080;
+    --color3 :#912347;
+    --color4 :rgb(194 65 12);
+    --color5 :rgb(74 222 128);
+    --color6 :rgb(13 148 136);  
+}
+*{
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+::-webkit-scrollbar{
+    background: hsl(195, 100%, 50% , 0.7) !important;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #fff;
+}
+body{
+    background: rgb(4, 15, 12) !important;
+}
+.navbar{
+    width: 100%;
+    /* background: hsl(177, 70%, 41%, 0.4) !important; */
+    /* background: hsl(195, 100%, 50% , 0.4) !important; */
+    background: hsl(195, 100%, 50% , 0.7) !important;
+}
+.navbar:focus{
+    color: #fff !important;
+}
+.home-text h1{
+    color: var(--color1);
+}
+.home-text .btn{
+    background: var(--color1);
+}
+.home-text .btn:hover{
+    color: #fff !important;
+    background: #00BFFF;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-link:hover{
+    /* color: !important; */
+}
+.navbar-nav li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.home-text h1{
+    color: var(--color1);
+}
+.icon_bar i{
+    color: var(--color1) !important;
+    border: 1px solid var(--color1) !important;
+}
+.icon_bar i:hover{
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    background: var(--color1);
+}
+.nav-link:hover{
+    color: var(--color1) !important;
+}
+.nav-link:focus{
+    /* color: var(--color1) !important; */
+}
+
+.home-img img{
+    width: 330px;
+}
+@media(max-width:992px){
+    .navbar-nav{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav-link:hover{
+        color: #fff !important;
+    }
+    .nav-link:focus{
+        /* color: var(--color1) !important; */
+    }
+}
+
+
+.about-edu{
+    background: hsl(195, 100%, 50%, 0.8) !important;
+    height: 100%;
+}
+.about-edu li{
+    list-style: none ;
+}
+@media (max-width:576px){
+    .home-img img{
+        width: 300px;
+    }
+    .about-per{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:776px){
+    .home-img{
+        margin-top: 30px;
+    }
+}
+
+
+.skillsContainer span{
+    color: var(--color1) !important;
+}
+.skills{
+    background: hsl(195, 100%, 50%, 0.8) !important;
+    height: 100%;
+}
+.skills p{
+    font-size: 1rem !important;
+}
+
+
+
+.section-title span{
+    color: var(--color1) !important;
+}
+.portfolio .project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio .project small{
+    font-size: 12px;
+    font-weight: 500;
+}
+.portfolio-item .btn{
+    color: var(--color1) !important;
+    border: 2px solid var(--color1);
+}
+.portfolio-item .btn:hover{
+    color: #fff !important;
+    border: 2px solid #fff;
+    background: var(--color1);
+    transition: ease-in-out 0.6s;
+}
+.portfolio-item h3{
+    color: var(--color1) !important;
+}
+.portfolio-item small{
+    color: #fff !important;
+}
+
+
+.about-contect h5{
+    color: #4d5e59;
+}
+
+
+
+.services-item:hover{
+    background: rgb(32,178,170) !important;
+    transition: ease-in-out 0.4s;
+}
+
+
+.contact-item p{
+    color: var(--color1) !important;
+}
+.contact-item i{
+    color: var(--color1) !important;
+    border: 2px solid var(--color1);
+}
+.contact-item i:hover{
+    background: var(--color1) !important;
+    color: #fff !important;   
+    border: 2px solid #fff !important;
+    transition: ease-in-out 0.3s;
+}
+
+.conact-form .btn{
+    border: 2px solid var(--color1) !important;
+    color: var(--color1) !important;
+}
+.conact-form .btn:hover{
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    background: var(--color1);
+    transition: ease-in-out 0.4s;
+}
+
+
+.footer span{
+    color: var(--color1) !important;
+}
